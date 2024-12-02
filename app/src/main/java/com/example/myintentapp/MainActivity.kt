@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.btn_move_activity_data -> {
                 val  moveWIthDataIntent = Intent(this@MainActivity, MoveWithDataActivity::class.java)
-                moveWIthDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "DicodingAcademy Dio")
+                moveWIthDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "Dio Rzy")
                 moveWIthDataIntent.putExtra(MoveWithDataActivity.EXTRA_AGE, 5)
                 startActivity((moveWIthDataIntent))
             }
